@@ -43,7 +43,8 @@ pyenv_redhat_packages:
   - make
   - git
   - gcc
-  - libselinux-python
+  # - libselinux-python
+  - python3-libselinux
   - zlib-devel
   - openssl-devel
   - bzip2-devel
